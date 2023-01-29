@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 # loop
-if [ -f "school" ]
+if [ -e "school" ]
 then
     echo "school file exists"
 else
@@ -15,7 +15,7 @@ else
     echo "school file is not empty"
 fi
 
-if [ -e "school" ]
+if [ -f "school" ]
 then
     echo "school is a regular file"
 fi
