@@ -1,9 +1,9 @@
 #!/usr/bin/env bash
 # loop
 current_dir=$(pwd)
-files=$(ls $current_dir)
+files=$(ls "$current_dir")
 for file in $files
 do
   name_after_dash=${file#*-}
-  echo $name_after_dash
+  echo "$name_after_dash"
 done
