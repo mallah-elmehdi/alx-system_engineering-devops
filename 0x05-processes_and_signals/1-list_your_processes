@@ -1,3 +1,3 @@
 #!/usr/bin/env bash
 # comment
-ps -e -o pid,ppid,user,cmd --forest
+ps -auxf
