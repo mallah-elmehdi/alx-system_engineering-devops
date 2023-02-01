@@ -1,0 +1,13 @@
+#!/usr/bin/env bash
+# comment
+
+_fun() { 
+    echo "I am invincible!!!"
+}
+
+while true
+do
+    echo "To infinity and beyond"
+    sleep 2
+    trap _fun SIGTERM 
+done
